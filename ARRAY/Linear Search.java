@@ -13,31 +13,11 @@ class Solution {
 }
 
 
-Description:
-A straightforward implementation of the Linear Search algorithm in Java.
-The algorithm checks each element in the array sequentially until the target value is found.
-
 Problem:
-Given an array arr[] and a value x, return the index of x.
-If x is not present, return -1.
+Given an array arr[] and a value x, find the index of x. If x is not present, return -1.
 
 Approach:
+Scan the array from left to right and compare each element with x. Return the index when found; otherwise return -1.
 
-Start from index 0
-
-Compare each element with x
-
-If a match is found → return the index
-
-If the loop ends without a match → return -1
-
-
-Example:
-Input: arr = [2, 4, 6, 8], x = 6
-Output: 2
-
-Complexity:
-
-Time: O(n) — sequential check
-
-Space: O(1) — no additional memory required
+Time Complexity: O(n)
+Space Complexity: O(1)
